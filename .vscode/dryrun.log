@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/gabriel/Área de Trabalho/Treinamento-em-Estruturas_AEDS'
+make: Leaving directory '/home/gabriel/Área de Trabalho/Treinamento-em-Estruturas_AEDS'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
