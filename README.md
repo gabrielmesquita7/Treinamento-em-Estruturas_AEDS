@@ -2,9 +2,6 @@
 
 
 <p align="center">Grupo: Gabriel Mesquita || Gabriel Marcondes || Marinêz Werneck || Ygor Santos</p>
-<h1 align="center"> 
-  https://contrib.rocks/preview
-</h1>
 <p style = "font-size:160%;" align="center">
   <a href="#lista">Lista</a> -
   <a href="#pilha">Pilha</a> -
