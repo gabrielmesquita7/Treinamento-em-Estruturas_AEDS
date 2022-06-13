@@ -34,7 +34,7 @@ void FImprime(tFila *f);
 void ImprimirMatriz(int tam, int **matriz);
 void CriarFila(tFila *f, tFila *u, int n);
 void BubbleSort(tFila *f);
-void TrocaFila(tFila *f, tFila *u, int n);
+void SwapFila(tFila *f, tFila *u, int n);
 void Calculo( tItem *c);
 
 double raiz(double val);
