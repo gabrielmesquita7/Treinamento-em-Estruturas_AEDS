@@ -99,8 +99,9 @@ e encontre os k pares mais próximos.
 
 <dd>É informado pelo usuario a equação e digitado "=" para finalizar, como no exemplo :
 
-<img> <img align="center" src="../Treinamento-em-Estruturas_AEDS/Pilha/img/img1.jpeg
-"/>
+![img1](https://user-images.githubusercontent.com/55333375/173265795-5fd8f330-2317-4b34-8c3d-17678aed30a6.jpeg)
+
+
 
 Os operadores são : "+" "-" "/" "*" 
 
@@ -124,22 +125,25 @@ No caso B o usuario deverá informar qualquer uma das equações abaixo:
  </div>
  </div>
 
-<img> <img align="center" src="../Treinamento-em-Estruturas_AEDS/Pilha/img/img2.jpeg
-"/>
+![img2](https://user-images.githubusercontent.com/55333375/173265828-5f84cc7b-c48d-46ad-a966-700c94bc3a55.jpeg)
+
+
 
 </dd>
 - Caso C:
 <dd>
   - A função feita é preenchida por valores alatórios de 0 a 99, até que atinja seu tamanho máximo,ou seja,20 posições; 
  
- <img> <img align="center" src="../Treinamento-em-Estruturas_AEDS/Pilha/img/img3.jpeg
-"/>
+![img3](https://user-images.githubusercontent.com/55333375/173265836-9a25cbd2-f91a-4e43-a008-6d0e0b9481d7.jpeg)
+
 </dd>
 
 - Caso D:
 <dd>
-  <img> <img align="center" src="../Treinamento-em-Estruturas_AEDS/Pilha/img/img4.jpeg
-"/>
+	
+![img4](https://user-images.githubusercontent.com/55333375/173266016-1d2ddf5d-6b29-4747-849d-c9fafc4e604f.jpeg)
+
+	
 </dd>
 
 ## Perguntas:
