@@ -2,7 +2,6 @@
 
 int main()
 {
-    srand(time(NULL));
 
     tFila f, u;
     tItem aux;
