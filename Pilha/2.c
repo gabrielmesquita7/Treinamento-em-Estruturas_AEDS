@@ -18,7 +18,7 @@ int main(){
     imprime(operandos);
     printf("\noperadores\n");
     imprime(operadores);
-    */
+    
 
 /////2B
 
