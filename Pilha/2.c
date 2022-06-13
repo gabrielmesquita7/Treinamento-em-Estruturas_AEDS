@@ -42,7 +42,7 @@ int main(){
     int n=20;
 
     c2(P1);
-    */
+    
 
 
 /////2D
@@ -50,7 +50,7 @@ int main(){
     pilha2 *fibonacci;   fibonacci=criaPilha3();
 
     d2(fibonacci);
-    */
+    
     
     return 0;
 }
