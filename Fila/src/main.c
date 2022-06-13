@@ -33,7 +33,7 @@ int main()
         break;
  
     case 2:
-        Crialista(&f, &u, n);
+        CriaFila(&f, &u, n);
         
         FImprime(&f);
 
