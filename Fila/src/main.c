@@ -20,7 +20,7 @@ int main()
     switch (escolha)
     {
     case 1:
-        Crialista(&f, &u, n);
+        CriaFila(&f, &u, n);
         
         FImprime(&f);
 		FImprime(&u);
