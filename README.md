@@ -2,13 +2,10 @@
 
 
 <p align="center">Grupo: Gabriel Mesquita || Gabriel Marcondes || Marinêz Werneck || Ygor Santos</p>
-<h1 align="center"> 
-  https://contrib.rocks/preview
-</h1>
 <p style = "font-size:160%;" align="center">
   <a href="#lista">Lista</a> -
   <a href="#pilha">Pilha</a> -
-  <a href="#ila">Fila</a> 
+  <a href="#fila">Fila</a> 
 
 </p>
  
@@ -37,21 +34,23 @@ e encontre os k pares mais próximos.
 ### O problema foi desenvolvido da seguinte maneira:
 * É definido pelo usuario o tamanho da **lista** atribuindo o valor para **nList** na função **define**. Esse valor irá definir o tamanho das lista dos problemas A,C e D
 
-* ![image](https://user-images.githubusercontent.com/55333375/167706372-01a0bb6c-44d1-497e-8685-cdc1d21979c6.png)
+* ![image](https://user-images.githubusercontent.com/55333375/172922180-2e8aaf19-2aff-49b5-86a4-854459b4b5af.png)
 
 * É apresentado ao usuário um menu em loop onde terá cada questão e a opção de sair, cada escolha é executada a função referente a opção e como dito anteriormente, a cada execução é gerado uma outra lista de numeros assim afetando no resultado dos problemas
 
-### As vantagens do uso da lista dinâmica citadas anteriormente podem ser observadas nos seguintes funcões dentro do código:
-* Flexibilidade na inserção:
+![image](https://user-images.githubusercontent.com/55333375/172922642-de32e74b-464e-419e-9ad6-cd744f320eda.png)
+![image](https://user-images.githubusercontent.com/55333375/172922732-42dc005f-3800-4e69-b6e6-ba9af26412fd.png)
 
-* Gerenciamento de várias listas:
 
 ## Saida
 ### É esperado que as saidas sejam geradas a cada opção selecionada dentro do **switch case** e quando o usuario selecionar a opção de "Sair" seja printado "Saindo..." e termine a execução.
 
-![image](https://user-images.githubusercontent.com/55333375/169157091-ad123db6-6269-486d-8870-19af47b68f1b.png)
+![image](https://user-images.githubusercontent.com/55333375/172926052-e6626bf0-34a0-4d6c-bc85-9cb798ab5383.png)
+![image](https://user-images.githubusercontent.com/55333375/172926115-9748fe3e-82c4-4aff-a8ba-ee1ce3d3b0d9.png)
+![image](https://user-images.githubusercontent.com/55333375/172926183-9c66d8d6-f9e2-4d8f-85f9-7815b3ed3f63.png)
+![image](https://user-images.githubusercontent.com/55333375/172926237-80a5319b-0c1e-4d63-abc7-d3672700668f.png)
+![image](https://user-images.githubusercontent.com/55333375/172926296-250080c0-e0f2-4a92-917e-8f55a5ce2975.png)
 
-![image](https://user-images.githubusercontent.com/55333375/169157174-5831f671-328f-4639-9323-971151271d97.png)
 
 ## Executar
 * Como executar:
