@@ -203,10 +203,10 @@ Primeiramente foi desenvolvida uma função para a criar uma lista randomica:
 ![criar](https://user-images.githubusercontent.com/56900319/173270605-31d3a221-2fff-4944-a7c9-cca12c7befe1.png)
 
 Em seguida foi utilizado a função Swapfila que divide os pares de filas e liga suas metades para compor duas novas filas para solução do problema "a":
-![bubble](https://user-images.githubusercontent.com/56900319/173270624-dfbe7939-d549-4cb8-836a-6dc16a98e9f6.png)
+![carbon](https://user-images.githubusercontent.com/56900319/173270632-87891655-8f33-4e42-8e6b-32f759f3ffdb.png)
 
 Uma função de calculo qualquer foi aplicada para a execução do problema "b":
 ![calc](https://user-images.githubusercontent.com/56900319/173270904-ec7c7165-f1aa-495b-a85b-657e95707192.png)
 
 Por fim para o problema "c" foi utilizado o metodo de ordenação BubbleSort para ordenar a fila:
-![carbon](https://user-images.githubusercontent.com/56900319/173270632-87891655-8f33-4e42-8e6b-32f759f3ffdb.png)
+![bubble](https://user-images.githubusercontent.com/56900319/173270624-dfbe7939-d549-4cb8-836a-6dc16a98e9f6.png)
