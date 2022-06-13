@@ -178,3 +178,35 @@ Deverá ser inserido os três comandos apresentados abaixos para a compilação,
 
 
 # Fila
+
+# Problema Proposto 
+
+Uma estrutura baseada em fila tem por definição a regra de sempre remover do início e inserir
+novos elementos no final. Sabendo-se disso, vamos praticar a utilização desse conceito nos
+seguintes problemas:
+
+*a*: Escreva uma função que receba pares de filas, ambas de tanho n, divida ambas ao meio
+e ligue as metades para compor duas novas filas, as quais devem ser retornadas para o
+usuário. Tais filas devem ser definidas como dinâmicas.
+
+*b*: Escreva uma função que aplica uma equação matemática qualquer aos numeros de uma ˜
+fila. Essa equação tem por objetivo produzir um indexador para a fila dada como entrada,
+logo, precisa ser retornado junto com a fila para o usuário.
+
+*c*: Elabore uma função que receba um conjunto de filas, todas com valores de indexação
+conforme item (b). Ordene esse grupo de filas pelo método da bolha e as retorne ao
+usuário considerando o maior valor de indexação como cabeça dessa ordem.
+
+# Algoritimo 
+
+Primeiramente foi desenvolvida uma função para a criar uma lista randomica:
+![criar](https://user-images.githubusercontent.com/56900319/173270605-31d3a221-2fff-4944-a7c9-cca12c7befe1.png)
+
+Em seguida foi utilizado a função Swapfila que divide os pares de filas e liga suas metades para compor duas novas filas para solução do problema "a":
+![bubble](https://user-images.githubusercontent.com/56900319/173270624-dfbe7939-d549-4cb8-836a-6dc16a98e9f6.png)
+
+Uma função de calculo qualquer foi aplicada para a execução do problema "b":
+![calc](https://user-images.githubusercontent.com/56900319/173270904-ec7c7165-f1aa-495b-a85b-657e95707192.png)
+
+Por fim para o problema "c" foi utilizado o metodo de ordenação BubbleSort para ordenar a fila:
+![carbon](https://user-images.githubusercontent.com/56900319/173270632-87891655-8f33-4e42-8e6b-32f759f3ffdb.png)
