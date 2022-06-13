@@ -1,5 +1,4 @@
-#ifndef PILHA_HPP
-#define PILHA_HPP
+#include<2.c>
 
 #include<stdio.h>
 #include<stdlib.h>
