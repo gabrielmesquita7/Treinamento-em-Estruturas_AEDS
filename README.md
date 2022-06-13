@@ -202,7 +202,7 @@ usuário considerando o maior valor de indexação como cabeça dessa ordem.
 Primeiramente foi desenvolvida uma função para a criar uma lista randomica:
 ![criar](https://user-images.githubusercontent.com/56900319/173270605-31d3a221-2fff-4944-a7c9-cca12c7befe1.png)
 
-Em seguida foi utilizado a função Swapfila que divide os pares de filas e liga suas metades para compor duas novas filas para solução do problema "a":
+Em seguida foi utilizado a função Swapfila que divide os pares de filas atribui essas divisões a filas auxiliares e liga suas metades para compor duas novas filas para solução do problema "a":
 ![carbon](https://user-images.githubusercontent.com/56900319/173270632-87891655-8f33-4e42-8e6b-32f759f3ffdb.png)
 
 Uma função de calculo qualquer foi aplicada para a execução do problema "b":
