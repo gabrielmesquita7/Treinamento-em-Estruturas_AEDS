@@ -197,7 +197,7 @@ logo, precisa ser retornado junto com a fila para o usuário.
 conforme item (b). Ordene esse grupo de filas pelo método da bolha e as retorne ao
 usuário considerando o maior valor de indexação como cabeça dessa ordem.
 
-# Algoritimo 
+# Algoritmo 
 
 Primeiramente foi desenvolvida uma função para a criar uma lista randomica:
 ![criar](https://user-images.githubusercontent.com/56900319/173270605-31d3a221-2fff-4944-a7c9-cca12c7befe1.png)
