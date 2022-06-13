@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun  9 14:16:27 2022
+# Make data base, printed on Sun Jun 12 22:45:03 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"74ce6549a467d1dfaba55fb5394742c9.pt-br","_translationsConfigFile":"/home/gabriel/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br/tcf.json","_cacheRoot":"/home/gabriel/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br","_resolvedLanguagePackCoreLocation":"/home/gabriel/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"/home/gabriel/.config/Code/clp/74ce6549a467d1dfaba55fb5394742c9.pt-br/corrupted.info","_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:79133
+JOURNAL_STREAM = 8:53944
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -71,11 +71,11 @@ MAKELEVEL := 0
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=e5175a8286e9a91bb48c9c4962961d37
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=0d2bffdd5d2957c0ca5c454562a659d7
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 16480
+MANAGERPID = 2009
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -91,7 +91,7 @@ PATH = /home/gabriel/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bi
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/gabriel:@/tmp/.ICE-unix/17348,unix/gabriel:/tmp/.ICE-unix/17348
+SESSION_MANAGER = local/gabriel:@/tmp/.ICE-unix/2292,unix/gabriel:/tmp/.ICE-unix/2292
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -109,7 +109,7 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = bbfe4aed17c4486e8c06cb3a2eba68ce
+INVOCATION_ID = fbd720605250439d83cfcfa341b18344
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -133,7 +133,7 @@ PWD = /home/gabriel/Área de Trabalho/Treinamento-em-Estruturas_AEDS
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 17186
+SSH_AGENT_PID = 2233
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -187,7 +187,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-f71e0c38-fe1c-47be-9764-64e9c3fa6ec0.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-081dd750-b3db-45bb-b9db-45e5d55c2085.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -245,11 +245,11 @@ LC_ALL = C
 # environment
 DBUS_STARTER_BUS_TYPE = session
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/aa22df64_8f6b_46ac_87e4_f5abe00647c8
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/d319dff0_ca0e_4b83_94d5_8c738fb75075
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.2754
+GNOME_TERMINAL_SERVICE = :1.349
 # default
 SUFFIXES := 
 # environment
@@ -271,25 +271,25 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 132674
+VSCODE_PID = 14259
 # environment
-DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=e5175a8286e9a91bb48c9c4962961d37
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=0d2bffdd5d2957c0ca5c454562a659d7
 # variable set hash-table stats:
 # Load=131/1024=13%, Rehash=0, Collisions=19/153=12%
 
+ 
 # Pattern-specific Variable Values
 
 # No pattern-specific variable values.
 
 # Directories
 
-# . (device 66308, inode 1196033): 6 files, no impossibilities.
+# . (device 66308, inode 1196033): 7 files, no impossibilities.
 
-# 6 files, no impossibilities in 1 directories.
+# 7 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
- 
 # No implicit rules.
 
 # Files
@@ -336,12 +336,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 14 / storage = 128 B / avg = 9 B
-# current buf: size = 8162 B / used = 128 B / count = 14 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 15 / storage = 134 B / avg = 8 B
+# current buf: size = 8162 B / used = 134 B / count = 15 / avg = 8 B
 
-# strcache performance: lookups = 17 / hit rate = 17%
+# strcache performance: lookups = 18 / hit rate = 16%
 # hash-table stats:
-# Load=14/8192=0%, Rehash=0, Collisions=1/17=6%
-# Finished Make data base on Thu Jun  9 14:16:27 2022
+# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
+# Finished Make data base on Sun Jun 12 22:45:04 2022
 
  

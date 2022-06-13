@@ -64,4 +64,114 @@ e encontre os k pares mais próximos.
 
 # Pilha
 
+# Problemas Propostos
+<div align="justify">
+É de nosso conhecimento que a estrutura do tipo pilha define regras de manipulação que não podem ser modificadas e que essas são comumente citadas como ações de PUSH (empilhar) e POP (desempilhar). Sabendo-se disso e mediante as regras de desenvolvimento já apresentadas faça:
+ <p></p>
+<b>a)</b> Escreva uma função que receba uma equação matemática qualquer e retorne duas pilhas. Uma contendo os operandos empilhados da esquerda para a direita e outra contendo os operadores seguindo mesma linha de leitura.
+	<p></p>
+	
+<b>b)</b> Considerando a função elaborada no item (a), crite uma segunda função que apresente a operação matemática em notação prefixa e posfixa. Veja alguns exemplos na tabela abaixo (i.e., Tabela 1.)
+  <p></p>
+  <div align="center">
+  <b>Figure 1: Exemplos de escrita infixa, prefixa e posfixa</b>
+  <div>
+
+|   Expressão Infinita   |   Expressão Prefixa   |   Expressão Posfixa   |  
+| -----------------------|-----------------------|-----------------------| 
+|     A + B * C + D      |    ++ A * B  C  D     |      A B C * + D +    | 
+|   (A + B) * (C + D)    |    *+ A  B + C  D     |      A B + C D + *    | 
+|     A * B + C * D      |    +* A  B * C  D     |      A B * C D * +    | 
+|     A + B + C + D      |    +++ A  B  C  D     |      A B + C + D +    | 
+
+ </div>
+ </div>
+
+<b>c)</b> Elabore uma função que receba uma pilha P1 com 20 posições preenchidas por números inteiros aleatórios entre 1 e 99. Para cada número da pilha, utilize a função totiente de Euler para encontrar para esse número os co-primos. Mostre-os na tela como resultado de sua execução.
+  <p></p>
+<b>d)</b> Crie uma função para realizar o calculo de fibonacci para um valor de N. Contudo, utilize uma pilha para armazenar os pré resultados, utilizando-os para outros calculos sempre que possível. Para tanto, considere manter no topo da pilha o cálculo para o valor de (n-1). Crie uma forma de identificar para qual n-1 o valor foi cálculado para não utilizar valores incorretos para calculos longos. Feito isso responda: Manter os cálculos em pilha pode ajudar a economizar computações? Quando seria melhor empregado?
+</div>
+
+# Algoritmo
+
+  
+
+- Caso A
+
+<dd>É informado pelo usuario a equação e digitado "=" para finalizar, como no exemplo :
+
+<img> <img align="center" src="../Treinamento-em-Estruturas_AEDS/Pilha/img/img1.jpeg
+"/>
+
+Os operadores são : "+" "-" "/" "*" 
+
+</dd>
+- Caso B
+<dd>
+
+No caso B o usuario deverá informar qualquer uma das equações abaixo: 
+
+<div align="center">
+  <b>Figure 2: Exemplos de escrita infixa, prefixa e posfixa</b>
+  <div>
+
+|   Expressão Infinita   |   Expressão Prefixa   |   Expressão Posfixa   |  
+| -----------------------|-----------------------|-----------------------| 
+|     A + B * C + D      |    ++ A * B  C  D     |      A B C * + D +    | 
+|   (A + B) * (C + D)    |    *+ A  B + C  D     |      A B + C D + *    | 
+|     A * B + C * D      |    +* A  B * C  D     |      A B * C D * +    | 
+|     A + B + C + D      |    +++ A  B  C  D     |      A B + C + D +    | 
+
+ </div>
+ </div>
+
+<img> <img align="center" src="../Treinamento-em-Estruturas_AEDS/Pilha/img/img2.jpeg
+"/>
+
+</dd>
+- Caso C:
+<dd>
+  - A função feita é preenchida por valores alatórios de 0 a 99, até que atinja seu tamanho máximo,ou seja,20 posições; 
+ 
+ <img> <img align="center" src="../Treinamento-em-Estruturas_AEDS/Pilha/img/img3.jpeg
+"/>
+</dd>
+
+- Caso D:
+<dd>
+  <img> <img align="center" src="../Treinamento-em-Estruturas_AEDS/Pilha/img/img4.jpeg
+"/>
+</dd>
+
+## Perguntas:
+
+<div align="justify">
+
+<dl>
+	<strong>Manter os cálculos em pilha pode ajudar a economizar computações?</strong>
+	<dd> Sim. Para valores maiores que N a partir do calculo de Fibonacci 
+  continua em N. Já menores que o N, é preocurado e achado o valor que se assemelha.
+  </dd>
+	<strong>Quando seria melhor empregado?</strong>
+	<dd> Quando o cálculo for menor que n, possibilitando a busca ser realizada apenas uma vez.</dd>	
+</dl>
+</div>
+
+
+# Compilação e Execução
+
+O algoritmo de pilhas disponibilizado possui alguns erros de compilação, um deles não possibilitando a execução no Makefile. A tentativa de usar strrev definido pela ISO e não pelo microsoft toolchain impossibilita a compilação e execução pelo sistema operacional Linux. A compilação deverá ser feita no Windowns usando o git BASH como terminal para a execução.
+Deverá ser inserido os três comandos apresentados abaixos para a compilação, mensagens de Warnings deverão ser desconsideradas.
+
+<div>
+
+| Comando                |                                                                                            |
+| -----------------------| ------------------------------------------------------------------------------------------------- |
+|  `gcc -c -Wall -g main.c`          |                                        |
+|  `gcc -g -o main.exe main.o`                |          |
+|  `./main.exe`            |                              |
+
+</div>
+
+
 # Fila
